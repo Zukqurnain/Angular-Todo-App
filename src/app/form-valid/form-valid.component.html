@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="container mt-3">
+    <h3> Form Valid </h3>
+    <form  (ngSubmit)="login($event)">
+      <div class="form-group mt-4">
+        <label for="username">User Name</label>
+        <input type="text" FormControlName="username" name="username" class="form-control" />
+        <label for="password">passsword</label>
+        <input type="passsword" FormControlName="password" name="password" class="form-control" />
+      </div>
+      <button class="btn btn-success " type="submit">Login</button>
+    </form>
+  </div>
+</div>

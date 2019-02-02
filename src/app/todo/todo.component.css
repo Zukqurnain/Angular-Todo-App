@@ -1,0 +1,8 @@
+.mg {
+    margin-top: 10px !important;
+}
+
+li {
+    border-left-width: 4px;
+    border-left-color: #007bff;
+}
